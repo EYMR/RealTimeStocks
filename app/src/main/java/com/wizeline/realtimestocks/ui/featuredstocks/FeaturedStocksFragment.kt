@@ -35,17 +35,21 @@ class FeaturedStocksFragment : Fragment() {
         return binding.root
     }
 
+    // Called when the fragment's view is created
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
+        // Sets the adapter for the RecyclerView
         with(_binding) {
-            rvStocks.adapter = adapter
+            rvStocks.adapter = adapter  // Assigns the adapter to the RecyclerView
         }
     }
 
+    // Function to handle incoming stock data
     private fun onStocks(stocks: List<Stock>) {
-        adapter.submitList(stocks)
+        adapter.submitList(stocks)  // Submits the list of stocks to the adapter for display
     }
+
 
     override fun onDestroyView() {
         super.onDestroyView()
