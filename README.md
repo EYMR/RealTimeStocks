@@ -18,3 +18,8 @@ In `FeaturedStocksFragment` we observe a live data that emits a List<Stock>
 every 10 seconds. Display that list in a screen in a way that efficiently
 handles stock updates. Take a look at `real-time-stocks-mockup.png` for an
 idea of how the screen might look like.
+
+
+## Result 
+
+<img width="346" alt="Screenshot 2024-02-28 at 20 11 04" src="https://github.com/EYMR/RealtimeStocks/assets/99291449/17c286b1-ec41-47de-a2ab-ebe2e88c8f63">
